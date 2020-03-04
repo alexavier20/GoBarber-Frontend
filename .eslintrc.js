@@ -36,14 +36,12 @@ module.exports = {
       'no-param-reassign': 'off',
       'react-hooks/rules-of-hooks': 'error',
       'react-hooks/exhaustive-deps': 'warn',
-      "import/prefer-default-export": "off",
       "no-unused-vars": ["error", { argsIgnorePattern: "^_" }],
       "react/jsx-one-expression-per-line": "off",
       "global-require": "off",
       "react-native/no-raw-text": "off",
       "no-underscore-dangle": "off",
       "no-console": ["error", { allow: ["tron"] }],
-      "react-hooks/rules-of-hooks": "error",
-      "react-hooks/exhaustive-deps": "warn"
+      'react/jsx-props-no-spreading': ['off']
   },
 };
