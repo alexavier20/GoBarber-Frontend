@@ -4,7 +4,10 @@ import { Container, Content, Profile } from './styles';
 
 import { Link } from 'react-router-dom';
 
+import Notifications from '~/components/Notifications';
+
 import logoPurple from '~/assets/logo_purple.svg';
+
 
 export default function Header() {
   return (
@@ -15,6 +18,8 @@ export default function Header() {
           <Link to="/dashboard">DASHBOARD</Link>
         </nav>
         <aside>
+          <Notifications />
+
           <Profile>
             <div>
               <strong>Alex Xavier</strong>
