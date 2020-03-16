@@ -1,5 +1,5 @@
 import React, { useState, useMemo, useEffect } from 'react';
-import { format, subDays, addDays, setHours, setMinutes, setSeconds, isBefore, isEqual, parseISO, getHours } from 'date-fns';
+import { format, subDays, addDays, setHours, setMinutes, setSeconds, isBefore, parseISO, getHours } from 'date-fns';
 import { utcToZonedTime } from 'date-fns-tz';
 import pt from 'date-fns/locale/pt';
 import { MdChevronLeft, MdChevronRight } from 'react-icons/md';
